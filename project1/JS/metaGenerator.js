@@ -12,7 +12,7 @@
 
 
 
- 		document.getElementById("demo").innerHTML ="&#60meta name = "+"&#8221;title&#8221;"+"&nbsp;"+"content="+"&#8221;"+inputtitle+"&#8221;&#62;\n"+"&#60meta name = "+"&#8221;author&#8221;"+"&nbsp;"+"content="+"&#8221;"+autorInput+"&#8221;&#62; \n"+"&#60meta name = "+"&#8221;keywords&#8221;"+"&nbsp;"+"content="+"&#8221;"+inputKeywords+"&#8221;&#62;\n"+"&#60meta name = "+"&#8221;description&#8221;"+"&nbsp;"+"content="+"&#8221;"+inputDescription+"&#8221;&#62;\n"+"&#60meta name = "+"&#8221;language&#8221;"+"&nbsp;"+"content="+"&#8221;"+inputLaunguage+"&#8221;&#62;\n"+"&#60meta http-equiv = "+"&#8221;Content-Type&#8221;"+"&nbsp;"+"content="+"&#8221;"+"text/html;"+"&nbsp;"+inputContentType+"&#8221;&#62;";
+ 		document.getElementById("demo").innerHTML ="&#60meta name = "+"&quot;title&quot;"+"&nbsp;"+"content="+"&quot;"+inputtitle+"&quot;&#62;\n"+"&#60meta name = "+"&quot;author&quot;"+"&nbsp;"+"content="+"&quot;"+autorInput+"&quot;&#62; \n"+"&#60meta name = "+"&quot;keywords&quot;"+"&nbsp;"+"content="+"&quot;"+inputKeywords+"&quot;&#62;\n"+"&#60meta name = "+"&quot;description&quot;"+"&nbsp;"+"content="+"&quot;"+inputDescription+"&quot;&#62;\n"+"&#60meta name = "+"&quot;language&quot;"+"&nbsp;"+"content="+"&quot;"+inputLaunguage+"&quot;&#62;\n"+"&#60meta http-equiv = "+"&quot;Content-Type&quot;"+"&nbsp;"+"content="+"&quot;"+"text/html;"+"&nbsp;"+inputContentType+"&quot;&#62;";
  	}
 
  	function countChars(obj){
