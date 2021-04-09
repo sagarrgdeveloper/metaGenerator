@@ -1,23 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Meat Generator</title>
-
-	
+	<title>SEO-Meta Generator</title>
+	<!-- meta tag -->
+	<meta name = "title" content="We Digitize U">
+	<meta name = "author" content="WDU"> 
+	<meta name = "keywords" content="Meta Tag In Html, SEO Meta tag, Meta Tag Generator">
+	<meta name = "description" content="Meta Tag Generator For SEO is helpful to generate meta tag in html. For ranking meta tag is very important. Small product by We Digitize U Team
+	">
+	<meta name = "language" content="English">
+	<meta http-equiv = "Content-Type" content="text/html; UTF-8">
+	<!-- meta tag -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="..\project1\css\share.css">
+	<script src="js/metaGenerator.js"></script>
+
+	<style type="text/css">
 
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		body {margin:0;height:200px;}
+
+		.icon-bar {
+			position: fixed;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+			z-index: 1000;
+			right: 0%;
+		}
+
+		.icon-bar a {
+			display: block;
+			text-align: center;
+			padding: 16px;
+			transition: all 0.3s ease;
+			color: white;
+			font-size: 20px;
+		}
+
+		.icon-bar a:hover {
+			background-color: #000;
+		}
+
+		.facebook {
+			background: #3B5998;
+			color: white;
+		}
+
+		.twitter {
+			background: #55ACEE;
+			color: white;
+		}
+
+		.google {
+			background: #dd4b39;
+			color: white;
+		}
+
+		.linkedin {
+			background: #007bb5;
+			color: white;
+		}
+
+		.youtube {
+			background: #bb0000;
+			color: white;
+		}
+		.watsapp {
+			background: #25d366;
+			color: white;
+		}
+
+		.content {
+			margin-left: 75px;
+			font-size: 30px;
+		}
+	}
 
 
-	<script src="..\project1\JS\metaGenerator.js"></script>
 
+
+</style>
 </head>
 <body>
+
 	<div class="icon-bar">
 		<a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a> 
  <!--  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
@@ -27,190 +97,178 @@
  	<a href="https://wa.me/8618696064" class="watsapp"><i class="fa fa-whatsapp"></i></a> 
 
  </div>
+ <div class="jumbotron" style="background-color:#24a0ed  !important;">
+ 	<h1>Meta Tag  Genertor For SEO</h1>      
 
- <!-- menu bar -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Meta Generator</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav" >
-    	<li class="nav-item active left">
-        <a class="nav-link" href="#"></a>
-      </li>
-      <li class="nav-item active left">
-        <a class="nav-link" href="#"></a>
-      </li>
-      <li class="nav-item active left">
-        <a class="nav-link" href="#"></a>
-      </li>
-    </ul>
-  </div>
-</nav>
- <!-- menu bar -->
- <br>
- <!-- input from user-->	
+ </div>
+ <div class="container-fluid">
 
-
- <div class="container">
  	<div class="row">
- 		<div class="col-6">
- 			<div class="form-group">			
- 				<p id="charNum">Website Name (*limit 51 characters )</p>
+ 		<div class="col-sm-12 col-md-6 col-lg-6">
+
+ 			<div class="form-group">      
+ 				<p id="charNum"><b>Website Title (*limit 51 characters )</b></p>
 
  				<input type="text" class="form-control" id="Websitetitle" placeholder="Website Name" onkeyup="countChars(this);" required>
 
  			</div>
+
  		</div>
- 		<div class="col-6">
- 			<div class="form-group">
- 				<p>Author</p>
- 				<input type="text" class="form-control" id="autor" placeholder="Author">
+ 		<div class="col-sm-12 col-md-6 col-lg-6">  
+ 			<div class="col-6">
+ 				<div class="form-group">
+ 					<p><b>Author</b></p>
+ 					<input type="text" class="form-control" id="autor" placeholder="Author">
+ 				</div>
  			</div>
+ 		</div>
+ 		<div class="col-sm-12 col-md-6 col-lg-6"><div class="form-group">
+ 			<p><b>Kaywords</b></p>
+ 			<textarea  rows="4" cols="50" class="form-control" id="websiteKeyword" placeholder="Keyword1, Keyword2, keyword3"></textarea>
+ 		</div>
+ 	</div>
+
+ 	<div class="col-sm-12 col-md-6 col-lg-6">
+ 		<div class="form-group">
+
+ 			<p id="charNumDec"><b>Description (*limit 150 characters )</b></p>
+ 			<textarea  rows="4" cols="50" class="form-control" id="description" placeholder="Description" onkeyup="countCharsDec(this);"></textarea>
  		</div>
 
  	</div>
 
- 	<div class="container">
- 		<div class="row">
- 			<div class="col-6">
- 				<div class="form-group">
- 					<p>Kaywords</p>
- 					<textarea  rows="4" cols="50" class="form-control" id="websiteKeyword" placeholder="Keyword1, Keyword2, keyword3"></textarea>
- 				</div>
- 			</div>
- 			<div class="col-6">
- 				<div class="form-group">
- 					<p id="charNumDec">Description (*limit 150 characters )</p>
- 					<textarea  rows="4" cols="50" class="form-control" id="description" placeholder="Description" onkeyup="countCharsDec(this);"></textarea>
- 				</div>
- 			</div>
-
+ 	<div class="col-sm-12 col-md-6 col-lg-6">
+ 		<div class="form-group">
+ 			<label for="exampleFormControlInput1">Website content in which langauge</label>
+ 			<select id="selectLanguage" class="form-control" aria-label="Choose one langauge">
+ 				<option value="English">English</option>
+ 				<option value="Afrikaans">Afrikaans</option>
+ 				<option value="Albanian">Albanian</option>
+ 				<option value="Arabic">Arabic</option>
+ 				<option value="Armenian">Armenian</option>
+ 				<option value="Basque">Basque</option>
+ 				<option value="Bengali">Bengali</option>
+ 				<option value="Bulgarian">Bulgarian</option>
+ 				<option value="Catalan">Catalan</option>
+ 				<option value="Cambodian">Cambodian</option>
+ 				<option value="Chinese (Mandarin)">Chinese (Mandarin)</option>
+ 				<option value="Croatian">Croatian</option>
+ 				<option value="Czech">Czech</option>
+ 				<option value="Danish">Danish</option>
+ 				<option value="Dutch">Dutch</option>
+ 				<option value="Estonian">Estonian</option>
+ 				<option value="Fiji">Fiji</option>
+ 				<option value="Finnish">Finnish</option>
+ 				<option value="French">French</option>
+ 				<option value="Georgian">Georgian</option>
+ 				<option value="German">German</option>
+ 				<option value="Greek">Greek</option>
+ 				<option value="Gujarati">Gujarati</option>
+ 				<option value="Hebrew">Hebrew</option>
+ 				<option value="Hindi">Hindi</option>
+ 				<option value="Hungarian">Hungarian</option>
+ 				<option value="Icelandic">Icelandic</option>
+ 				<option value="Icelandic">Icelandic</option>
+ 				<option value="Indonesian">Indonesian</option>
+ 				<option value="Irish">Irish</option>
+ 				<option value="Italian">Italian</option>
+ 				<option value="Japanese">Japanese</option>
+ 				<option value="Javanese">Javanese</option>
+ 				<option value="Korean">Korean</option>
+ 				<option value="Latin">Latin</option>
+ 				<option value="Latvian">Latvian</option>
+ 				<option value="Lithuanian">Lithuanian</option>
+ 				<option value="Macedonian">Macedonian</option>
+ 				<option value="Malay">Malay</option>
+ 				<option value="Malayalam">Malayalam</option>
+ 				<option value="Maltese">Maltese</option>
+ 				<option value="Maori">Maori</option>
+ 				<option value="Marathi">Marathi</option>
+ 				<option value="Mongolian">Mongolian</option>
+ 				<option value="Nepali">Nepali</option>
+ 				<option value="Norwegian">Norwegian</option>
+ 				<option value="Persian">Persian</option>
+ 				<option value="Polish">Polish</option>
+ 				<option value="Portuguese">Portuguese</option>
+ 				<option value="Punjabi">Punjabi</option>
+ 				<option value="Quechua">Quechua</option>
+ 				<option value="Romanian">Romanian</option>
+ 				<option value="Russian">Russian</option>
+ 				<option value="Samoan">Samoan</option>
+ 				<option value="Serbian">Serbian</option>
+ 				<option value="Slovak">Slovak</option>
+ 				<option value="Slovenian">Slovenian</option>
+ 				<option value="Spanish">Spanish</option>
+ 				<option value="Swahili">Swahili</option>
+ 				<option value="Swedish ">Swedish </option>
+ 				<option value="Tamil">Tamil</option>
+ 				<option value="Tatar">Tatar</option>
+ 				<option value="Telugu">Telugu</option>
+ 				<option value="Thai">Thai</option>
+ 				<option value="Tibetan">Tibetan</option>
+ 				<option value="Tonga">Tonga</option>
+ 				<option value="Turkish">Turkish</option>
+ 				<option value="Ukrainian">Ukrainian</option>
+ 				<option value="Urdu">Urdu</option>
+ 				<option value="Uzbek">Uzbek</option>
+ 				<option value="Vietnamese">Vietnamese</option>
+ 				<option value="Welsh">Welsh</option>
+ 				<option value="Xhosa">Xhosa</option>
+ 			</select>
  		</div>
 
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-6">
- 					<div class="form-group">
- 						<label for="exampleFormControlInput1">Website content in which langauge</label>
- 						<select id="selectLanguage" class="form-select" aria-label="Choose one langauge">
- 							<option value="English">English</option>
- 							<option value="Afrikaans">Afrikaans</option>
- 							<option value="Albanian">Albanian</option>
- 							<option value="Arabic">Arabic</option>
- 							<option value="Armenian">Armenian</option>
- 							<option value="Basque">Basque</option>
- 							<option value="Bengali">Bengali</option>
- 							<option value="Bulgarian">Bulgarian</option>
- 							<option value="Catalan">Catalan</option>
- 							<option value="Cambodian">Cambodian</option>
- 							<option value="Chinese (Mandarin)">Chinese (Mandarin)</option>
- 							<option value="Croatian">Croatian</option>
- 							<option value="Czech">Czech</option>
- 							<option value="Danish">Danish</option>
- 							<option value="Dutch">Dutch</option>
- 							<option value="Estonian">Estonian</option>
- 							<option value="Fiji">Fiji</option>
- 							<option value="Finnish">Finnish</option>
- 							<option value="French">French</option>
- 							<option value="Georgian">Georgian</option>
- 							<option value="German">German</option>
- 							<option value="Greek">Greek</option>
- 							<option value="Gujarati">Gujarati</option>
- 							<option value="Hebrew">Hebrew</option>
- 							<option value="Hindi">Hindi</option>
- 							<option value="Hungarian">Hungarian</option>
- 							<option value="Icelandic">Icelandic</option>
- 							<option value="Icelandic">Icelandic</option>
- 							<option value="Indonesian">Indonesian</option>
- 							<option value="Irish">Irish</option>
- 							<option value="Italian">Italian</option>
- 							<option value="Japanese">Japanese</option>
- 							<option value="Javanese">Javanese</option>
- 							<option value="Korean">Korean</option>
- 							<option value="Latin">Latin</option>
- 							<option value="Latvian">Latvian</option>
- 							<option value="Lithuanian">Lithuanian</option>
- 							<option value="Macedonian">Macedonian</option>
- 							<option value="Malay">Malay</option>
- 							<option value="Malayalam">Malayalam</option>
- 							<option value="Maltese">Maltese</option>
- 							<option value="Maori">Maori</option>
- 							<option value="Marathi">Marathi</option>
- 							<option value="Mongolian">Mongolian</option>
- 							<option value="Nepali">Nepali</option>
- 							<option value="Norwegian">Norwegian</option>
- 							<option value="Persian">Persian</option>
- 							<option value="Polish">Polish</option>
- 							<option value="Portuguese">Portuguese</option>
- 							<option value="Punjabi">Punjabi</option>
- 							<option value="Quechua">Quechua</option>
- 							<option value="Romanian">Romanian</option>
- 							<option value="Russian">Russian</option>
- 							<option value="Samoan">Samoan</option>
- 							<option value="Serbian">Serbian</option>
- 							<option value="Slovak">Slovak</option>
- 							<option value="Slovenian">Slovenian</option>
- 							<option value="Spanish">Spanish</option>
- 							<option value="Swahili">Swahili</option>
- 							<option value="Swedish ">Swedish </option>
- 							<option value="Tamil">Tamil</option>
- 							<option value="Tatar">Tatar</option>
- 							<option value="Telugu">Telugu</option>
- 							<option value="Thai">Thai</option>
- 							<option value="Tibetan">Tibetan</option>
- 							<option value="Tonga">Tonga</option>
- 							<option value="Turkish">Turkish</option>
- 							<option value="Ukrainian">Ukrainian</option>
- 							<option value="Urdu">Urdu</option>
- 							<option value="Uzbek">Uzbek</option>
- 							<option value="Vietnamese">Vietnamese</option>
- 							<option value="Welsh">Welsh</option>
- 							<option value="Xhosa">Xhosa</option>
- 						</select>
- 					</div>
- 				</div>
- 				<div class="col-6">
- 					<div class="form-group">
- 						<label for="exampleFormControlInput1">Website content Character Set</label>
- 						<select id = "contentType" class="form-select" aria-label="Choose one">
- 							<option value="UTF-8">UTF-8</option>
- 							<option value="ISO-8859-1">ISO-8859-1</option>
- 							<option value="ISO-8859-8">ISO-8859-8</option>
- 							<option value="Windows-1252">Windows-1252</option>
- 						</select>
+ 	</div>
 
- 					</div>
- 				</div>
- 			</div>
+
+ 	<div class="col-sm-12 col-md-6 col-lg-6">
+ 		<div class="form-group">
+ 			<label for="exampleFormControlInput1">Website content Character Set</label>
+ 			<select id = "contentType" class="form-control" aria-label="Choose one">
+ 				<option value="UTF-8">UTF-8</option>
+ 				<option value="ISO-8859-1">ISO-8859-1</option>
+ 				<option value="ISO-8859-8">ISO-8859-8</option>
+ 				<option value="Windows-1252">Windows-1252</option>
+ 			</select>
 
  		</div>
- 		<hr>
+ 	</div>
 
- 		<!-- button-->	
- 		<div style="text-align: center;" > 
- 			<button type="button" class="btn btn-success" onclick="getInputValue()" onclick="getCpy()">Generate meta for SEO</button>
- 		</div>
- 		<!-- button-->	
 
- 		<!-- input from user-->	
- 		<form action="">
- 			<h6>Generator</h6>
- 			<textarea id="demo" rows="8" cols="100" style="background-color:  #FAF56B"></textarea>
- 			<br>
- 		</form>
- 		<div style="text-align: left;" > 
- 			<button type="button" class="btn btn-success" onclick="getCpy()">Copy meta</button>
- 		</div>
+ 	<div class="col-sm-12 col-md-6 col-lg-6">
+ 		<button type="button" class="btn btn-success btn-lg" onclick="getInputValue()" onclick="getCpy()">Generate meta for SEO</button>
+ 	</div>
+ 	<div class="col-sm-12 col-md-6 col-lg-6"></div>
+
+
+ 	<div class="col-sm-12 col-md-12 col-lg-12">
+
+ 		<h6><b>Generator</b></h6>
+ 		<textarea id="demo" rows="12" cols="100" class="form-control" style="background-color:  #FAF56B"></textarea>
+ 		<br>
+ 	</div>
+
+ 	<div class="col-sm-12 col-md-6 col-lg-6">
+
+ 		<button type="button" class="btn btn-success btn-lg" onclick="getCpy()">Copy meta</button>
+ 		<br>
+ 		<p id="cpy" style="color: red"></p>
+
+ 		<br>
+ 	</div>
+
+
+
+ 	<div class="col-sm-12 col-lg-12 col-md-12" style="background-color:#24a0ed">
+
+ 		<center>Powered by We Digitize U</center>
+
  	</div>
  </div>
- <hr>
- <p style="background: grey"><br><br></p>
 
- <!-- js --> 
- 
- <!-- js -->
+
+
 
 </body>
+
+
 </html>
