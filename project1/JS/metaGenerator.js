@@ -1,4 +1,5 @@
 
+ 
  	function getInputValue(){
 
 
@@ -12,7 +13,7 @@
 
 
 
- 		document.getElementById("demo").innerHTML ="&#60meta name = "+"&quot;title&quot;"+"&nbsp;"+"content="+"&quot;"+inputtitle+"&quot;&#62;\n"+"&#60meta name = "+"&quot;author&quot;"+"&nbsp;"+"content="+"&quot;"+autorInput+"&quot;&#62; \n"+"&#60meta name = "+"&quot;keywords&quot;"+"&nbsp;"+"content="+"&quot;"+inputKeywords+"&quot;&#62;\n"+"&#60meta name = "+"&quot;description&quot;"+"&nbsp;"+"content="+"&quot;"+inputDescription+"&quot;&#62;\n"+"&#60meta name = "+"&quot;language&quot;"+"&nbsp;"+"content="+"&quot;"+inputLaunguage+"&quot;&#62;\n"+"&#60meta http-equiv = "+"&quot;Content-Type&quot;"+"&nbsp;"+"content="+"&quot;"+"text/html;"+"&nbsp;"+inputContentType+"&quot;&#62;";
+ 		document.getElementById("demo").innerHTML ="&#60meta name = "+"&quot;title&quot;"+"&nbsp;"+"content="+"&quot;"+inputtitle+"&quot;&#62;\n"+"&#60meta name = "+"&quot;author&quot;"+"&nbsp;"+"content="+"&quot;"+autorInput+"&quot;&#62; \n"+"&#60meta name = "+"&quot;keywords&quot;"+"&nbsp;"+"content="+"&quot;"+inputKeywords+"&quot;&#62;\n"+"&#60meta name = "+"&quot;description&quot;"+"&nbsp;"+"content="+"&quot;"+inputDescription+"&quot;&#62;\n"+"&#60meta name = "+"&quot;language&quot;"+"&nbsp;"+"content="+"&quot;"+inputLaunguage+"&quot;&#62;\n"+"&#60meta http-equiv = "+"&quot;Content-Type&quot;"+"&nbsp;"+"content="+"&quot;"+"text/html;"+" "+inputContentType+"&quot;&#62;";
  	}
 
  	function countChars(obj){
@@ -38,8 +39,14 @@
 
  	function getCpy(){
  		var copyText =document.getElementById("demo");
+ 		var test = copyText.value;
+ 		if(test==""){
+ 			document.getElementById("cpy").innerHTML = "Please Enter Website title, description, keywords, ect";
+ 		}else{
  		copyText.select();
  		copyText.setSelectionRange(0, 99999);
  		document.execCommand("copy");
- 		alert("Copied Meta Tag For SEO :)" );
+ 		 document.getElementById("cpySuccess").innerHTML = "Meta Tag is copied";
+}
  	}
+
